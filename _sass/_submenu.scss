@@ -1,0 +1,88 @@
+.menu {
+	position: relative;
+}
+/* ANIMATION AND HOVER FUNCTION FOR NAVIGATION BAR*/
+.navigation {
+	position: relative;
+	.sub-nav.open {
+		visibility: visible;
+		opacity: 1;
+		-webkit-transition: opacity 150ms ease 250ms, box-shadow 150ms, visibility 0s linear 0s, top 0s linear 0s;
+		   -moz-transition: opacity 150ms ease 250ms, box-shadow 150ms, visibility 0s linear 0s, top 0s linear 0s;
+			-ms-transition: opacity 150ms ease 250ms, box-shadow 150ms, visibility 0s linear 0s, top 0s linear 0s;
+			 -o-transition: opacity 150ms ease 250ms, box-shadow 150ms, visibility 0s linear 0s, top 0s linear 0s;
+				transition: opacity 150ms ease 250ms, box-shadow 150ms, visibility 0s linear 0s, top 0s linear 0s;
+	}
+	.sub-nav {
+		position: absolute;
+		left: 0;
+		opacity: 0;
+		visibility: hidden;
+		-webkit-transition: opacity 150ms ease 250ms, box-shadow 150ms, visibility 0s linear 150ms;
+		   -moz-transition: opacity 150ms ease 250ms, box-shadow 150ms, visibility 0s linear 150ms;
+			-ms-transition: opacity 150ms ease 250ms, box-shadow 150ms, visibility 0s linear 150ms;
+			 -o-transition: opacity 150ms ease 250ms, box-shadow 150ms, visibility 0s linear 150ms;
+				transition: opacity 150ms ease 250ms, box-shadow 150ms, visibility 0s linear 150ms;		
+	}
+}
+.sub-nav {
+	padding: 20px 2%;
+	margin: 0px;
+	color: black;
+	border-top: 1px solid gray;
+	background-color: #033c60;
+	z-index: 99;
+	
+	width: 96%;
+
+    ol {
+		padding: 0;
+		margin: 0;
+		list-style: none;
+		ol {
+			list-style: square;
+		}
+	}
+	.sub-nav-group {
+		color: white;;
+		a { 
+			color: white; 
+		}
+		&:first-child {
+			//border-right: 1px solid silver;
+			padding-left: 15px;
+		}
+		> h3 {
+			margin: 4px 0px 4px -10px;
+			line-height: 20px;
+			font-size: 18px;
+			text-transform: uppercase;
+		}
+		.courts-group {
+			width: 16.667%;
+		}
+	}
+}
+.sub-nav-group {
+	width: 33%;
+}
+.menu-courts {
+	.sub-nav-group {
+		width: 75%;
+		&:first-child {
+			width: 25%;
+		}
+	}
+	.courts-list {
+		list-style: none;
+	}
+}
+.menu-quick-links {
+	.sub-nav-group {
+		width: 25%;
+	}
+}
+
+.sr-only {
+	display: none;
+}

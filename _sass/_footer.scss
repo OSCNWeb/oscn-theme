@@ -1,0 +1,78 @@
+/* PUSH FOOTER DOWN */
+html {
+  height: 100%;
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+body {
+	position: relative;
+	min-height: 100%;
+	padding-bottom: 225px;	
+}
+.footer{
+  position: absolute;
+  right: 0;
+  bottom: 10px;
+  left: 0;
+}
+/* END OF FOOTER BEING PUSHED DOWN */
+.footer {
+	height: 225px;
+	background-color: $dark-background;
+	color: white;
+	a {
+		color: white;
+	}
+	h6 {
+		font-size: 18px;
+		text-transform: uppercase;
+		font-weight: bold;			
+		margin: 0 0px;	
+	}
+	.col {
+		width: 25%;
+		
+	}
+	ul {
+		list-style: square;
+		margin: 0;
+		padding: 0;
+	}
+}
+
+.lower-footer {
+	background-color: $light-background;
+	ul {
+		padding: 0;
+		margin: 0;
+		list-style: none;
+		li {
+			float: left;
+			padding: 5px 0px;
+			a { 
+				font-size: 12px;
+				color: white;
+				text-transform: uppercase;
+				border-right: 1px solid white;	
+				padding: 0 5px;
+			}
+		}
+		li:last-child a {
+			border-right: none;
+		}
+	}
+}
+
+@include media-query($on-laptop) {
+	.footer .col {
+		width: 33%;
+	}
+}@include media-query($on-palm) {
+	.footer .col {
+		width: 100%;
+	}
+}

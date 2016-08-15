@@ -1,0 +1,90 @@
+---
+layout: default
+---
+
+<!--HEADINGS-->
+<div class="examples">
+<h2 class="exh2">Headings</h2>
+<h1>Header 1</h1>
+<h2>Header 2</h2>
+<h3>Header 3</h3>
+<h4>Header 4</h4>
+<h5>Header 5</h5>
+<h6>Header 6</h6>
+</div>
+
+<!--TABLES-->
+<div class="examples">
+<h2 class="exh2">Tables</h2>
+<table>
+	<thead>
+		<tr>
+			<th>Movie</th>
+			<th>Director</th>
+			<th>Year</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>The Killing</td>
+			<td>Stanley Kubrick</td>
+			<td>1956</td>
+		</tr>
+		<tr>
+			<td>Pulp Fiction</td>
+			<td>Quentin Tarantino</td>
+			<td>1994</td>
+		</tr>
+		<tr>
+			<td>Sling Blade</td>
+			<td>Billy Bob Thornton</td>
+			<td>1996</td>
+		</tr>
+	</tbody>
+</table>
+</div>
+
+<!--GRID-->
+<div class="examples">
+<h2 class="exh2">Grid</h2>
+<div class="row">
+	<div class="col u-1-4">1</div>
+	<div class="col u-1-4">2</div>
+	<div class="col u-1-4">3</div>
+	<div class="col u-1-4">4</div>
+</div>
+</div>
+
+<!--FORMS-->
+<div class="examples">
+<h2 class="exh2">Forms</h2>
+<button>Button</button>
+</div>
+
+<!--NEWS ITEMS-->
+<div class="examples">
+<h2 class="exh2">News Item</h2>
+{% for post in site.posts %}
+	{{ post1.content }}
+{% endfor %}
+</div>
+
+<!-- menu -->
+<div>
+<!--
+{% include menu-courts.html %}
+<br />
+{% include menu-template.html name='decisions' %}
+<br />
+{% include menu-template.html name='programs' %}
+<br />
+{% include menu-template.html name='news' %}
+<br />
+{% include menu-template.html name='legal-research' %}
+<br />
+{% include menu-template.html name='court-records' %}
+<br />
+{% include menu-template.html name='quick-links' %}
+<br />
+-->
+</div>

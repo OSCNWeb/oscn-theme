@@ -1,0 +1,5 @@
+- group:
+  - title: News
+    children:
+    - title: Recent News
+    - title: Archived News

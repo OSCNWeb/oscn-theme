@@ -1,0 +1,14 @@
+{% capture name %}menu-{{include.name}}{% endcapture %}
+{% assign data = site.data[name] %}
+<div class="sub-nav {{name}}">
+<ol class="row">
+{% for array in data %}
+	<li class="sub-nav-group col">
+	{% for parent in array.group %}
+		<h3>{{parent.title}}</h3>
+		<ol>{% for child in parent.children %}
+			<li>{{child.title | markdownify | remove: '<p>' | remove: '</p>'| strip_newlines }}</li>{% endfor %}
+		</ol>{% endfor %}
+	</li>{% endfor %}
+</ol>
+</div>

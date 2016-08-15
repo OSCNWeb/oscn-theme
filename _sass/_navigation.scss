@@ -1,0 +1,128 @@
+.print-logo { display: none; }
+.accessibility {
+	background-color: white;
+	a {
+		position: absolute;
+		top: -1000px;
+		left: -1000px;
+		height: 1px;
+		width: 1px;
+		text-align: left;
+		overflow: hidden;
+	}
+	a:focus {
+		position: relative;
+		left: 0;
+		top: 0;
+		width: auto;
+		height: auto;
+		overflow: visible;
+	}
+}
+.upper-navigation {
+	background-color: $light-background;
+	ul {
+		margin: 0;
+		list-style: none;
+		li {
+			display: inline;
+		}
+		li a {
+			border-left: solid 1px black;
+		}
+		li:last-child a {
+			border-right: solid 1px black;
+		}
+	}
+	a {
+		display: inline-block;
+		padding: 5px 10px;
+		color: white;
+		text-transform: uppercase;
+	}
+	.col {
+		width: 50%;
+	}
+	.left { }
+	.right {
+		text-align: right;
+	}
+}
+.navigation {
+	background-color: $dark-background;
+	.utility {
+		.brand {
+			float: left;
+			a {
+				position: relative;
+				z-index: 100;
+				padding: 10px 5px;
+				display: block;
+				height: $navigation-height - 15px;
+				> img{
+					height: $navigation-height - 10px;
+				}
+				@include media-query($on-laptop) {
+					padding: 10px 5px;
+					display: block;
+					height: $navigation-height - 10px;
+					width: $navigation-height;
+					background-image: url('http://www.oscn.net/assets/img/logo.jpg');
+					background-size: 400%;
+					background-repeat: no-repeat;
+					background-position: 0 center;				
+					img {
+						//height: 42px;
+						display: none;
+					}
+				}
+
+			}
+		}
+		.toggle {
+			float: right;
+			button {
+				height: 37px;
+				width: 37px;
+				margin: 0 10px 10px 0;
+				padding: 0;
+				background-color: transparent;
+				border: 0;
+				background: url("http://www.oscn.net/assets/img/hamburger.jpg") no-repeat center;
+				background-size: 50px 50px;
+			}
+		}
+	}
+	.menu {
+		list-style: none;
+		padding: 0;
+		margin: 0;
+		.nav-item {
+			display: inline-block;
+			> a {
+				font-weight: bold;
+				color: white;
+				position: relative;
+				display: block;
+				padding:  (($navigation-height / 2) - 3) 0.75em;
+				text-transform: uppercase;
+				font-size: 12px;
+			}
+		}
+	}
+}
+@include media-query($on-laptop) {
+	.navigation {
+		
+	}
+}
+@include media-query($on-palm) {
+	.navigation {
+		background-color: green;
+	}
+}
+
+
+@import
+        "submenu"
+;
