@@ -1,6 +1,40 @@
 ---
-layout:
+layout: compress
 ---
-var x = 'yoda'
+$(document).ready(function(){
+function addSubMenus(){
 
-{% include menu-courts.html %}
+{% capture courts %}{% include menu-courts.html %}{% endcapture %}
+{% capture news %}{% include menu-template.html name='news' %}{% endcapture %}
+{% capture decisions %}{% include menu-template.html name='decisions' %}{% endcapture %}
+{% capture programs %}{% include menu-template.html name='programs' %}{% endcapture %}
+{% capture legalresearch %}{% include menu-template.html name='legalresearch' %}{% endcapture %}
+{% capture courtrecords %}{% include menu-template.html name='courtrecords' %}{% endcapture %}
+{% capture quicklinks %}{% include menu-template.html name='quicklinks' %}{% endcapture %}
+
+
+var courts = '{{ courts | strip_newlines }}';
+var news = '{{ news | strip_newlines }}';
+var decisions = '{{ decisions | strip_newlines }}';
+var programs = '{{ programs | strip_newlines }}';
+var legalresearch = '{{ legalresearch | strip_newlines }}';
+var courtrecords = '{{ courtrecords | strip_newlines }}';
+var quicklinks = '{{ quicklinks | strip_newlines }}';
+
+/*
+$(courts).appendTo("#courts_menu");
+$(news).appendTo("#news");
+$(decisions).appendTo("#decisions");
+$(programs).appendTo("#programs");
+$(legalresearch).appendTo("#legal-research");
+$(courtrecords).appendTo("#court-records");
+$(quicklinks).appendTo("#quick-links");
+*/
+}
+
+
+
+
+
+addSubMenus();
+});
