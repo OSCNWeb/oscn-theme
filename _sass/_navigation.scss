@@ -1,5 +1,14 @@
 .print-logo { display: none; }
+.header {
+	.wrapper {
+		padding: 0;
+	}
+}
 .accessibility {
+	.wrapper {
+		padding: 0;
+		margin: 0;
+	}
 	background-color: white;
 	a {
 		position: absolute;
@@ -40,16 +49,26 @@
 		color: white;
 		text-transform: uppercase;
 	}
+	.col:first-child {
+		ul a {
+			text-transform: none;
+		}
+	}
 	.col {
 		width: 50%;
+		padding: 0;
 	}
 	.left { }
 	.right {
 		text-align: right;
 	}
 }
-.navigation {
+.navigation{
 	background-color: $dark-background;
+	.wrapper {
+		position: relative;
+		min-height: $navigation-height + 15px;
+	}
 	.utility {
 		.brand {
 			float: left;
@@ -58,33 +77,20 @@
 				z-index: 100;
 				padding: 10px 5px;
 				display: block;
-				height: $navigation-height - 15px;
+				height: $navigation-height + 10px;
 				> img{
 					height: $navigation-height - 10px;
 				}
-				@include media-query($on-laptop) {
-					padding: 10px 5px;
-					display: block;
-					height: $navigation-height - 10px;
-					width: $navigation-height;
-					background-image: url('http://www.oscn.net/assets/img/logo.jpg');
-					background-size: 400%;
-					background-repeat: no-repeat;
-					background-position: 0 center;				
-					img {
-						//height: 42px;
-						display: none;
-					}
-				}
-
 			}
 		}
 		.toggle {
 			float: right;
-			button {
+			> button {
+				position: relative;
+				z-index: 99;
 				height: 37px;
 				width: 37px;
-				margin: 0 10px 10px 0;
+				margin: 15px 15px 10px 0;
 				padding: 0;
 				background-color: transparent;
 				border: 0;
@@ -97,6 +103,7 @@
 		list-style: none;
 		padding: 0;
 		margin: 0;
+		display: block;
 		.nav-item {
 			display: inline-block;
 			> a {
@@ -109,18 +116,16 @@
 				font-size: 12px;
 			}
 		}
+		@media screen and (max-width: 768px + 49) {
+			padding-top: $navigation-height;
+			.nav-item {
+				display: block;
+			}
+		}
 	}
 }
-@include media-query($on-laptop) {
-	.navigation {
-		
-	}
-}
-@include media-query($on-palm) {
-	.navigation {
-		background-color: green;
-	}
-}
+
+
 
 
 @import

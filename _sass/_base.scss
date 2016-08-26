@@ -151,11 +151,14 @@ pre {
 }
 
 
-
 /**
  * Wrapper
  */
+
 .wrapper {
+	margin-right: auto;
+	margin-left: auto;
+   /*
     max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit} * 2));
     max-width:         calc(#{$content-width} - (#{$spacing-unit} * 2));
     margin-right: auto;
@@ -170,8 +173,35 @@ pre {
         padding-right: $spacing-unit / 2;
         padding-left: $spacing-unit / 2;
     }
+	*/
 }
 
+@media screen and (max-width: 992px + 49) {
+
+}
+@media screen and (min-width: 768px + 50px) and (max-width: 992px + 49) {
+	.wrapper { width: 768px; }
+	.brand a {
+		padding: 0px 0px;
+		display: block;
+		height: $navigation-height + 10px;
+		width: $navigation-height + 10px;
+		background-image: url('http://www.oscn.net/assets/img/logo.jpg');
+		background-size: 400%;
+		background-repeat: no-repeat;
+		background-position: 0 center;				
+		img {
+			//height: 42px;
+			display: none;
+		}
+	}	
+}
+@media screen and (min-width: 992px + 50) and (max-width: 1200px + 49) {
+	.wrapper { width: 992px; }
+}
+@media screen and (min-width: 1200px + 50){
+	.wrapper { width: 1200px; } 
+}
 
 
 /**

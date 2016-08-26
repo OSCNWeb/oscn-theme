@@ -33,18 +33,18 @@
 	background-color: #033c60;
 	z-index: 99;
 	
-	width: 96%;
+	width: 100%;
 
     ol {
 		padding: 0;
 		margin: 0;
 		list-style: none;
 		ol {
-			list-style: square;
+			list-style: none;
 		}
 	}
 	.sub-nav-group {
-		color: white;;
+		color: white;
 		a { 
 			color: white; 
 		}
@@ -53,10 +53,11 @@
 			padding-left: 15px;
 		}
 		> h3 {
-			margin: 4px 0px 4px -10px;
-			line-height: 20px;
+			margin: 4px 0px 4px 0px;
+			line-height: 22px;
 			font-size: 18px;
 			text-transform: uppercase;
+			font-weight: bold;
 		}
 		.courts-group {
 			width: 16.667%;
