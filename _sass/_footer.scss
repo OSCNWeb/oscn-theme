@@ -1,18 +1,5 @@
 /* PUSH FOOTER DOWN */
-html {
-  height: 100%;
-  box-sizing: border-box;
-}
-*,
-*:before,
-*:after {
-  box-sizing: inherit;
-}
-body {
-	position: relative;
-	min-height: 100%;
-	//padding-bottom: 225px;	
-}
+
 .footer{
   //position: absolute;
   border-top: solid $light-background 10px;
