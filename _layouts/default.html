@@ -9,10 +9,16 @@ layout:
 	{% include header.html %}
     <div class="page-content">
       <div class="wrapper">
-        {{ content }}
+		<div class="col site-navigation">{% include site-banner.html %}</div>		  
+        <div class="col content">
+			<div id="site-banner">{% include site-navigation.html %}</div>
+			{{ content }}
+		</div>
       </div>
     </div>
   </div>
-    {% include footer.html %}  
+	<div class="footer-wrapper">
+		{% include footer.html %}
+	</div>
   </body>
 </html>

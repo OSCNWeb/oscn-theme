@@ -67,7 +67,8 @@
 	background-color: $dark-background;
 	.wrapper {
 		position: relative;
-		min-height: $navigation-height + 15px;
+		height: $navigation-height;
+		//min-height: $navigation-height + 15px;
 	}
 	.utility {
 		.brand {
@@ -75,11 +76,13 @@
 			a {
 				position: relative;
 				z-index: 100;
-				padding: 10px 5px;
-				display: block;
-				height: $navigation-height + 10px;
+				display: table-cell;
+				vertical-align: middle;
+				height: $navigation-height;
+				overflow: hidden;
+				//height: $navigation-height;
 				> img{
-					height: $navigation-height - 10px;
+					height: $navigation-height - 10;
 				}
 			}
 		}
@@ -104,20 +107,24 @@
 		padding: 0;
 		margin: 0;
 		display: block;
+		height: $navigation-height;
 		.nav-item {
 			display: inline-block;
+			height: $navigation-height;
 			> a {
 				font-weight: bold;
 				color: white;
 				position: relative;
-				display: block;
-				padding:  (($navigation-height / 2) - 3) 0.75em;
+				display: table-cell;
+				padding: 0 15px;
+				vertical-align: middle;
+				height: $navigation-height;
 				text-transform: uppercase;
 				font-size: 12px;
 			}
 		}
 		@media screen and (max-width: 768px + 49) {
-			padding-top: $navigation-height;
+			//padding-top: $navigation-height;
 			.nav-item {
 				display: block;
 			}
@@ -125,7 +132,35 @@
 	}
 }
 
-
+@media screen and (min-width: 768px + 50px) and (max-width: 992px + 49) {
+.navigation {
+	.menu {
+		.nav-item {
+			> a {
+				padding: 0 8px;
+			}
+		}
+	}
+	.brand {
+		padding: 0;
+		margin: 0;
+		//height: $navigation-height;// + 10px;
+		//width: $navigation-height;// + 10px;
+	}
+	.brand a {
+		width: 65px;
+		background-image: url('http://www.oscn.net/assets/img/logo.jpg');
+		background-size: 400%;
+		background-repeat: no-repeat;
+		background-position: 0 center;
+		img {
+			width: 250px;
+			//height: 42px;
+			display: none;
+		}
+	}
+}	
+}
 
 
 @import

@@ -199,20 +199,6 @@ body:before {
 }
 @media screen and (min-width: 768px + 50px) and (max-width: 992px + 49) {
 	.wrapper { width: 768px; }
-	.brand a {
-		padding: 0px 0px;
-		display: block;
-		height: $navigation-height + 10px;
-		width: $navigation-height + 10px;
-		background-image: url('http://www.oscn.net/assets/img/logo.jpg');
-		background-size: 400%;
-		background-repeat: no-repeat;
-		background-position: 0 center;				
-		img {
-			//height: 42px;
-			display: none;
-		}
-	}	
 }
 @media screen and (min-width: 992px + 50) and (max-width: 1200px + 49) {
 	.wrapper { width: 992px; }
