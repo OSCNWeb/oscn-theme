@@ -1,15 +1,15 @@
 - group:
   - title: Supreme Court of Oklahoma
     children:
-    - title: "[New Decisions](/decisions/ok/7)"
-    - title: "[View Decisions by Year](http://www.oscn.net/applications/oscn/Index.asp?ftdb=STOKCSSC)"
+    - "[New Decisions](/decisions/ok/7)"
+    - "[View Decisions by Year](http://www.oscn.net/applications/oscn/Index.asp?ftdb=STOKCSSC)"
 - group:
   - title: Court of Criminal Appeals
     children:
-    - title: "[New Decisions](/decisions/ok-cr/7)"
-    - title: "[View Decisions by Year](http://www.oscn.net/applications/oscn/Index.asp?ftdb=STOKCSCR)"
+    - "[New Decisions](/decisions/ok-cr/7)"
+    - "[View Decisions by Year](http://www.oscn.net/applications/oscn/Index.asp?ftdb=STOKCSCR)"
 - group:
   - title: Court of Civil Appeals
     children:
-    - title: "[New Decisions](/decisions/ok-civ-app/7)"
-    - title: "[View Decisions by Year](http://www.oscn.net/applications/oscn/Index.asp?ftdb=STOKCSCV)"
+    - "[New Decisions](/decisions/ok-civ-app/7)"
+    - "[View Decisions by Year](http://www.oscn.net/applications/oscn/Index.asp?ftdb=STOKCSCV)"

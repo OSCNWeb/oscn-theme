@@ -7,7 +7,7 @@
 		{% for group in about.group %}
 			<h3>{{group.title | markdownify | remove: '<p>' | remove: '</p>' | strip_newlines}}</h3>
 			<ol>{% for child in group.children %}
-				<li>{{ child.title | markdownify | remove: '<p>' | remove: '</p>' | strip_newlines }}</li>{% endfor %}
+				<li>{{ child | markdownify | remove: '<p>' | remove: '</p>' | strip_newlines }}</li>{% endfor %}
 			</ol>
 		{% endfor %}
 		</li> 
@@ -18,9 +18,9 @@
 				{% assign group_number = forloop.index%}
 				<li class="courts-group col"><h4 class="sr-only">{{ child.title }}</h4>
 				<ol class="county-list">{% for item in child.children %}
-					<li class="courtListitem group{{group_number}}"><a href="http://www.oscn.net/courts/{{ item.title | downcase }}">{{ item.title }}</a></li>{% endfor %}</ol></li>
+					<li class="courtListitem group{{group_number}}"><a href="http://www.oscn.net/courts/{{ item | downcase | replace: ' ', '-' }}">{{ item }}</a></li>{% endfor %}</ol></li>
 			{% endfor %}</ol>
-		{% endfor %}
+		{% endfor %} 
 		</li>
 	</ol>
 </div>

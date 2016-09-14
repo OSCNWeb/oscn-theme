@@ -1,51 +1,51 @@
 - group:
   - title: Forms
     children:
-    - title: "[Supreme Court and Court of Civil Appeals](http://www.oscn.net/static/forms/scforms.asp)"
-    - title: "[Court of Criminal Appeals](http://www.okcca.net/forms/index.html){:target='_blank'}"
-    - title: "[District Courts (Administrative Office of the Courts)](http://www.oscn.net/static/forms/AOCforms.asp)"
-    - title: "[District Courts of Oklahoma Cover Sheets](http://www.oscn.net/static/forms/districtcover.asp)"
-    - title: "[Child Support](http://www.oscn.net/static/forms/childsupport.asp)"
-    - title: "[Standard Visitation Schedule &amp; Advisory Guidelines](http://www.oscn.net/forms/aoc_form/adobe/dom.-standard-visit-sch.-advis.%20gdelns.pdf){:target='_blank'}"
-    - title: "[Juvenile Courts](http://www.oscn.net/UniformOrders/default.aspx)"
-    - title: "[Workers' Compensation](http://www.owcc.state.ok.us/){:target='_blank'}"
-    - title: "[Oklahoma Secretary of State](http://www.sos.state.ok.us/){:target='_blank'}"
-    - title: "[Legal Aid Self-Help Forms](http://oklaw.org/legal-aid-self-help-forms){:target='_blank' .external-link}"
-    - title: "[Certified Courtroom Interpreters](http://www.oscn.net/static/forms/aoc_forms/interpreter.asp)"
-    - title: "[Certified Shorthand Reporters](http://www.oscn.net/static/forms/aoc_forms/csr.asp)"
+    - "[Supreme Court and Court of Civil Appeals](http://www.oscn.net/static/forms/scforms.asp)"
+    - "[Court of Criminal Appeals](http://www.okcca.net/forms/index.html){:target='_blank'}"
+    - "[District Courts (Administrative Office of the Courts)](http://www.oscn.net/static/forms/AOCforms.asp)"
+    - "[District Courts of Oklahoma Cover Sheets](http://www.oscn.net/static/forms/districtcover.asp)"
+    - "[Child Support](http://www.oscn.net/static/forms/childsupport.asp)"
+    - "[Standard Visitation Schedule &amp; Advisory Guidelines](http://www.oscn.net/forms/aoc_form/adobe/dom.-standard-visit-sch.-advis.%20gdelns.pdf){:target='_blank'}"
+    - "[Juvenile Courts](http://www.oscn.net/UniformOrders/default.aspx)"
+    - "[Workers' Compensation](http://www.owcc.state.ok.us/){:target='_blank'}"
+    - "[Oklahoma Secretary of State](http://www.sos.state.ok.us/){:target='_blank'}"
+    - "[Legal Aid Self-Help Forms](http://oklaw.org/legal-aid-self-help-forms){:target='_blank' .external-link}"
+    - "[Certified Courtroom Interpreters](http://www.oscn.net/static/forms/aoc_forms/interpreter.asp)"
+    - "[Certified Shorthand Reporters](http://www.oscn.net/static/forms/aoc_forms/csr.asp)"
 - group:
   - title: Statewide Registries
     children:
-    - title: "[Statewide Registry of Licensed Private Process&nbsp;Servers](http://www.oscn.net/applications/oscn/DeliverDocument.asp?CiteID=468488)"
-    - title: "[Registry of Frivolous or Malicious Appeals](http://www.oscn.net/applications/oscn/DeliverDocument.asp?CiteID=380115)"
-    - title: "[Full Faith and Credit of Tribal Courts](http://www.oscn.net/applications/oscn/DeliverDocument.asp?CiteID=458214)"
-    - title: "[Certified Courtroom Interpreters](http://www.oscn.net/static/forms/aoc_forms/interpreter.asp)"
-    - title: "[Certified Shorthand Reporters](http://www.oscn.net/static/forms/aoc_forms/csr.asp)"
-    - title: "[Sex Offender Registry](http://sors.doc.state.ok.us/svor/f?p=103:1:231254177081259){:target='_blank'}"
-    - title: "[Meth Registry](http://www.ok.gov/obndd/documents/METH09-22.pdf){:target='_blank'}"
+    - "[Statewide Registry of Licensed Private Process&nbsp;Servers](http://www.oscn.net/applications/oscn/DeliverDocument.asp?CiteID=468488)"
+    - "[Registry of Frivolous or Malicious Appeals](http://www.oscn.net/applications/oscn/DeliverDocument.asp?CiteID=380115)"
+    - "[Full Faith and Credit of Tribal Courts](http://www.oscn.net/applications/oscn/DeliverDocument.asp?CiteID=458214)"
+    - "[Certified Courtroom Interpreters](http://www.oscn.net/static/forms/aoc_forms/interpreter.asp)"
+    - "[Certified Shorthand Reporters](http://www.oscn.net/static/forms/aoc_forms/csr.asp)"
+    - "[Sex Offender Registry](http://sors.doc.state.ok.us/svor/f?p=103:1:231254177081259){:target='_blank'}"
+    - "[Meth Registry](http://www.ok.gov/obndd/documents/METH09-22.pdf){:target='_blank'}"
   - title: Reports
     children:
-    - title: "[Annual Report](http://www.oscn.net/static/annual-report-2015.pdf){:target='_blank'}"
-    - title: "[Statewide Registry of Licensed Private Process&nbsp;Servers](http://www.oscn.net/applications/oscn/DeliverDocument.asp?CiteID=468488)"
-    - title: "[District Court Reports](/dockets/)"
+    - "[Annual Report](http://www.oscn.net/static/annual-report-2015.pdf){:target='_blank'}"
+    - "[Statewide Registry of Licensed Private Process&nbsp;Servers](http://www.oscn.net/applications/oscn/DeliverDocument.asp?CiteID=468488)"
+    - "[District Court Reports](/dockets/)"
 - group:
   - title: Self Help
     children:
-    - title: "[Protective Orders](http://www.oscn.net/static/forms/aoc_forms/protectiveorders.asp)"
-    - title: "[Child Support](http://www.oscn.net/static/forms/childsupport.asp)"
-    - title: "[Standard Visitation Schedule &amp; Advisory Guidelines](http://www.oscn.net/forms/aoc_form/adobe/dom.-standard-visit-sch.-advis. gdelns.pdf){:target='_blank'}"
-    - title: "[Legal Aid Self-Help Forms](http://oklaw.org/legal-aid-self-help-forms){:target='_blank' .external-link}"
+    - "[Protective Orders](http://www.oscn.net/static/forms/aoc_forms/protectiveorders.asp)"
+    - "[Child Support](http://www.oscn.net/static/forms/childsupport.asp)"
+    - "[Standard Visitation Schedule &amp; Advisory Guidelines](http://www.oscn.net/forms/aoc_form/adobe/dom.-standard-visit-sch.-advis. gdelns.pdf){:target='_blank'}"
+    - "[Legal Aid Self-Help Forms](http://oklaw.org/legal-aid-self-help-forms){:target='_blank' .external-link}"
   - title: Related Links
     children:
-    - title: "[Oklahoma Bar Association](http://www.okbar.org/){:target='_blank'}"
-    - title: "[Oklahoma State Legislature](http://www.oklegislature.gov/){:target='_blank'}"
-    - title: "[Oklahoma Government Website](http://www.state.ok.us/){:target='_blank'}"
-    - title: "[Oklahoma Secretary of State](https://www.sos.ok.gov/){:target='_blank'}"
-    - title: "[Judicial Family Institute](http://www.judicialfamilyinstitute.org/){:target='_blank'}"
-    - title: "[Oklahoma Governor's Office](http://www.ok.gov/governor/){:target='_blank'}"
-    - title: "[Council on Judicial Complaints](http://www.okbar.org/public/Courts/CouncilonJudicialComplaints.aspx){:target='_blank'}"
+    - "[Oklahoma Bar Association](http://www.okbar.org/){:target='_blank'}"
+    - "[Oklahoma State Legislature](http://www.oklegislature.gov/){:target='_blank'}"
+    - "[Oklahoma Government Website](http://www.state.ok.us/){:target='_blank'}"
+    - "[Oklahoma Secretary of State](https://www.sos.ok.gov/){:target='_blank'}"
+    - "[Judicial Family Institute](http://www.judicialfamilyinstitute.org/){:target='_blank'}"
+    - "[Oklahoma Governor's Office](http://www.ok.gov/governor/){:target='_blank'}"
+    - "[Council on Judicial Complaints](http://www.okbar.org/public/Courts/CouncilonJudicialComplaints.aspx){:target='_blank'}"
 - group:
   - title: Help
     children:
-     - title: "[Court Records Help](http://www.oscn.net/applications/oscn/SimpleHelp.asp?HelpContextID=4)"
-     - title: "[Legal Research](http://www.oscn.net/applications/oscn/SimpleHelp.asp?HelpContextID=14)"
+     - "[Court Records Help](http://www.oscn.net/applications/oscn/SimpleHelp.asp?HelpContextID=4)"
+     - "[Legal Research](http://www.oscn.net/applications/oscn/SimpleHelp.asp?HelpContextID=14)"

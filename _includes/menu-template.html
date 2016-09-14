@@ -7,7 +7,7 @@
 	{% for parent in array.group %}
 		<h3>{{parent.title}}</h3>
 		<ol>{% for child in parent.children %}
-			<li>{{child.title | markdownify | remove: '<p>' | remove: '</p>'| strip_newlines }}</li>{% endfor %}
+			<li>{{child | markdownify | remove: '<p>' | remove: '</p>'| strip_newlines }}</li>{% endfor %}
 		</ol>{% endfor %}
 	</li>{% endfor %}
 </ol>

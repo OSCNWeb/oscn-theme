@@ -1,36 +1,36 @@
 - group:
   - title: Legal Research
     children: 
-    - title: "[All Legal Research](http://www.oscn.net/applications/oscn/start.asp?viewType=LIBRARY&amp;p=1)"
-    - title: "[Federal Legal Materials](http://www.oscn.net/applications/oscn/start.asp?viewType=LIBRARY&amp;p=2)"
-    - title: "[Indian Territory Cases](http://www.oscn.net/applications/oscn/index.asp?ftdb=FDCS&amp;level=1)"
+    - "[All Legal Research](http://www.oscn.net/applications/oscn/start.asp?viewType=LIBRARY&amp;p=1)"
+    - "[Federal Legal Materials](http://www.oscn.net/applications/oscn/start.asp?viewType=LIBRARY&amp;p=2)"
+    - "[Indian Territory Cases](http://www.oscn.net/applications/oscn/index.asp?ftdb=FDCS&amp;level=1)"
   - title: Search
     children:
-    - title: "[Search](http://www.oscn.net/applications/oscn/search.asp?simple=true)"
-    - title: "[Advanced Search](http://www.oscn.net/applications/oscn/search.asp)"
-    - title: "[Batch Citator](http://www.oscn.net/applications/oscn/QuickCase.asp)"
+    - "[Search](http://www.oscn.net/applications/oscn/search.asp?simple=true)"
+    - "[Advanced Search](http://www.oscn.net/applications/oscn/search.asp)"
+    - "[Batch Citator](http://www.oscn.net/applications/oscn/QuickCase.asp)"
 - group:
   - title: Oklahoma Law
     children:
-    - title: "[Appellate Decisions](http://www.oscn.net/applications/oscn/index.asp?ftdb=STOKCS&amp;level=1)"
-    - title: "[Supreme Court Decisions](http://www.oscn.net/applications/oscn/Index.asp?ftdb=STOKCSSC&amp;level=1)"
-    - title: "[Court of Criminal Appeals Decisions](http://www.oscn.net/applications/oscn/Index.asp?ftdb=STOKCSCR&amp;level=1)"
-    - title: "[Court of Civil Appeals Decisions](http://www.oscn.net/applications/oscn/Index.asp?ftdb=STOKCSCV&amp;level=1)"
-    - title: "[Court on the Judiciary Opinions](http://www.oscn.net/applications/oscn/Index.asp?ftdb=STOKCSJU&amp;level=1)"
-    - title: "[Statutes](http://www.oscn.net/applications/oscn/index.asp?ftdb=STOKST&amp;level=1)"
-    - title: "[Session Laws](http://www.oscn.net/applications/oscn/index.asp?ftdb=STOKLG&amp;level=1)"
-    - title: "[Constitution](http://www.oscn.net/applications/oscn/index.asp?ftdb=STOKCN&amp;level=1)"
-    - title: "[Court Rules](http://www.oscn.net/applications/oscn/index.asp?ftdb=STOKRU&amp;level=2)"
-    - title: "[Administrative Code and Oklahoma Register (Secretary of State)](https://www.sos.ok.gov/oar/Default.aspx){:target='_blank'}"
+    - "[Appellate Decisions](http://www.oscn.net/applications/oscn/index.asp?ftdb=STOKCS&amp;level=1)"
+    - "[Supreme Court Decisions](http://www.oscn.net/applications/oscn/Index.asp?ftdb=STOKCSSC&amp;level=1)"
+    - "[Court of Criminal Appeals Decisions](http://www.oscn.net/applications/oscn/Index.asp?ftdb=STOKCSCR&amp;level=1)"
+    - "[Court of Civil Appeals Decisions](http://www.oscn.net/applications/oscn/Index.asp?ftdb=STOKCSCV&amp;level=1)"
+    - "[Court on the Judiciary Opinions](http://www.oscn.net/applications/oscn/Index.asp?ftdb=STOKCSJU&amp;level=1)"
+    - "[Statutes](http://www.oscn.net/applications/oscn/index.asp?ftdb=STOKST&amp;level=1)"
+    - "[Session Laws](http://www.oscn.net/applications/oscn/index.asp?ftdb=STOKLG&amp;level=1)"
+    - "[Constitution](http://www.oscn.net/applications/oscn/index.asp?ftdb=STOKCN&amp;level=1)"
+    - "[Court Rules](http://www.oscn.net/applications/oscn/index.asp?ftdb=STOKRU&amp;level=2)"
+    - "[Administrative Code and Oklahoma Register (Secretary of State)](https://www.sos.ok.gov/oar/Default.aspx){:target='_blank'}"
 - group:
   - title: Oklahoma Legal Materials
     children:
-    - title: "[Uniform Jury Instructions](http://www.oscn.net/applications/oscn/index.asp?ftdb=STOKJU&amp;level=1)"
-    - title: "[Legal Forms](http://www.oscn.net/static/forms/start.asp)"
-    - title: "[Registry of Frivolous or Malicious Appeals](http://www.oscn.net/applications/oscn/Index.asp?ftdb=STOKRP&amp;level=1)"
-    - title: "[Full Faith and Credit of Tribal Courts](http://www.oscn.net/applications/oscn/Index.asp?ftdb=STOKFF&amp;level=1)"
-    - title: "[Attorney General Opinions](http://www.oscn.net/applications/oscn/index.asp?ftdb=STOKAG&amp;level=1)"
-    - title: "[Judicial Ethics Advisory Panel Opinions](http://www.oscn.net/applications/oscn/Index.asp?ftdb=STOKCSJE&amp;level=1)"
-    - title: "[Fee &amp; Bond Schedules](http://www.oscn.net/applications/oscn/index.asp?ftdb=STOKFB&amp;level=1)"
-    - title: "[Fee and Copy Schedules for Appellate Courts](http://www.oscn.net/applications/oscn/Index.asp?ftdb=STOKAP&amp;level=1)"
-    - title: "[Interest on Judgments](http://www.oscn.net/applications/oscn/index.asp?ftdb=STOKIN&amp;level=1)"
+    - "[Uniform Jury Instructions](http://www.oscn.net/applications/oscn/index.asp?ftdb=STOKJU&amp;level=1)"
+    - "[Legal Forms](http://www.oscn.net/static/forms/start.asp)"
+    - "[Registry of Frivolous or Malicious Appeals](http://www.oscn.net/applications/oscn/Index.asp?ftdb=STOKRP&amp;level=1)"
+    - "[Full Faith and Credit of Tribal Courts](http://www.oscn.net/applications/oscn/Index.asp?ftdb=STOKFF&amp;level=1)"
+    - "[Attorney General Opinions](http://www.oscn.net/applications/oscn/index.asp?ftdb=STOKAG&amp;level=1)"
+    - "[Judicial Ethics Advisory Panel Opinions](http://www.oscn.net/applications/oscn/Index.asp?ftdb=STOKCSJE&amp;level=1)"
+    - "[Fee &amp; Bond Schedules](http://www.oscn.net/applications/oscn/index.asp?ftdb=STOKFB&amp;level=1)"
+    - "[Fee and Copy Schedules for Appellate Courts](http://www.oscn.net/applications/oscn/Index.asp?ftdb=STOKAP&amp;level=1)"
+    - "[Interest on Judgments](http://www.oscn.net/applications/oscn/index.asp?ftdb=STOKIN&amp;level=1)"
