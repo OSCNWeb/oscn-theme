@@ -2,21 +2,21 @@
   - title: "Court Programs"
     children:
       - "[The Sovereignty Symposium](http://www.thesovereigntysymposium.com/splash.aspx)"
-      - "Alternative Dispute Resolution"
-      - "Early Settlement Mediation"
-      - "Children's Court Improvement Program (CIP)"
-      - "Certified Courtroom Interpreters"
-      - "Certified Shorthand Reporters"
-      - "Judicial Nominating Commission"
+      - "[Alternative Dispute Resolution](http://www.oscn.net/static/adr/default.aspx)"
+      - "[Early Settlement Mediation](http://www.oscn.net/Sites/CourtImprovement/default.aspx)"
+      - "[Children's Court Improvement Program (CIP)](http://www.oscn.net/Sites/CourtImprovement/default.aspx)"
+      - "[Certified Courtroom Interpreters](http://www.oscn.net/static/forms/aoc_forms/interpreter.asp)"
+      - "[Certified Shorthand Reporters](http://www.oscn.net/static/forms/aoc_forms/csr.asp)"
+      - "[Judicial Nominating Commission](http://www.oscn.net/jnc)"
 - group: 
   - title: "Access To Justice"
     children:
-      - "Commisioners"
-      - "Protective Orders"
-      - "Child Support"
-      - "Standard Visitation Schedule & Advisory Guidelines"
-      - "Legal Aid Self-Help Forms"
+      - "[Commisioners](http://www.oscn.net/static/access%20to%20justice%20members.pdf)"
+      - "[Protective Orders](http://www.oscn.net/static/forms/aoc_forms/protectiveorders.asp)"
+      - "[Child Support](http://www.oscn.net/static/forms/childsupport.asp)"
+      - "[Standard Visitation Schedule & Advisory Guidelines](http://www.oscn.net/forms/aoc_form/adobe/dom.-standard-visit-sch.-advis.%20gdelns.pdf)"
+      - "[Legal Aid Self-Help Forms](http://oklaw.org/legal-aid-self-help-forms)"
 - group:
   - title: "Accessibility"
     children:
-      - "Accessibility Statement"
+      - "[Accessibility Statement](http://www.oscn.net/v4/accessibility/)"

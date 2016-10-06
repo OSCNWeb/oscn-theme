@@ -32,7 +32,7 @@ function buttonbar(){
 	currwidth = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
 
 	if((currwidth > maxSizeHamburger)&&(lastwidth <= maxSizeHamburger)){
-		console.log("larger");
+		//console.log("larger");
 		unhamburger();
 		$("nav").replaceWith(nav.clone());
 		wireupMenu();
