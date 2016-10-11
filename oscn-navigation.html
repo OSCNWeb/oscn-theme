@@ -8,7 +8,10 @@ layout:
 	</div></div>
 	<div class="row upper-navigation"><div class="wrapper">
 		<div class="col left">
-			<ul><li><a href="http://www.oscn.net/applications/oscn/SimpleHelp.asp?HelpContextID=">Help</a></li></ul>
+			<ul>
+			<li><a href="http://www.oscn.net/applications/oscn/SimpleHelp.asp?HelpContextID=">Help</a></li>
+			<li><a href="http://www.oscn.net/applications/oscn/SimpleHelp.asp?HelpContextID=84">Contact Us</a></li>
+			</ul>
 		</div>
 		<div class="col right">
 			<ul><li><a href="https://www.oscn.net/epayments/">e-payments</a></li><!--
@@ -21,7 +24,8 @@ layout:
 			<div class="toggle" style="display: none;"><button type="button" data-toggle="navigation"><span class="sr-only">toggle navigation</span></button></div>
 		</div>
 		<nav>
-			<ol class="nav-menu">
+			<ol class="menu">
+				<li class="nav-item" id="home"><a href="/">Home</a></li>
 				<li class="nav-item" id="courts_menu"><a href="/courts/">Courts</a>{% include menu-courts.html %}</li>
 				<li class="nav-item" id="decisions"><a href="/decisions/">Decisions</a>{% include menu-template.html name='decisions' %}</li>
 				<li class="nav-item" id="programs"><a href="/programs/">Programs</a>{% include menu-template.html name='programs' %}</li>
