@@ -7,7 +7,7 @@ var nav = $("nav").clone();
 
 var uuid = "accessible-megamenu";
 
-var maxSizeHamburger = 818;
+var maxSizeHamburger = 768;
 var lastwidth = 0;
 var currwidth = 0;
 var ltIE8 = false;

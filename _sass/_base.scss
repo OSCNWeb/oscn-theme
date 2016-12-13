@@ -194,16 +194,16 @@ body:before {
 	margin-top:-32767px;
 }
 
-@media screen and (max-width: 992px + 49) {
+@media screen and (max-width: 992px) {
 
 }
-@media screen and (min-width: 768px + 50px) and (max-width: 992px + 49) {
+@media screen and (min-width: 768px) and (max-width: 1024px) {
 	.wrapper { width: 768px; }
 }
-@media screen and (min-width: 992px + 50) and (max-width: 1200px + 49) {
-	.wrapper { width: 992px; }
+@media screen and (min-width: 1024px) and (max-width: 1200px) {
+	.wrapper { width: 1024px; }
 }
-@media screen and (min-width: 1200px + 50){
+@media screen and (min-width: 1200px){
 	.wrapper { width: 1200px; } 
 }
 
